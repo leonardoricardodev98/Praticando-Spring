@@ -16,6 +16,8 @@ import java.util.ConcurrentModificationException;
 @RequiredArgsConstructor
 public class UsuarioService {
 
+
+
     private final UsuarioRepository usuarioRepository;
     private final PasswordEncoder passwordEncoder;
 
